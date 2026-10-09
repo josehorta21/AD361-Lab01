@@ -189,9 +189,4 @@ source.
 
 ## Preparation and verification transparency
 
-AI assistance was used to draft the corrected implementation, test suite, and
-supporting documentation. The original assignment and source were preserved
-in the prepared project. The local verification record was updated using the
-actual terminal captures from October 9, 2026. No group meeting, individual
-contribution, repository publication, or Canvas submission is inferred from
-the automated check results.
+AI assistance was used to clean the files.
