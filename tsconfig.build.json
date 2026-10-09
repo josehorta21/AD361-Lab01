@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "fixed_receipt.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "receipt.ts",
+    "receipt.test.ts"
+  ]
+}

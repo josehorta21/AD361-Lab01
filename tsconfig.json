@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "types": [
+      "jest",
+      "node"
+    ],
+    "outDir": "dist"
+  },
+  "include": [
+    "fixed_receipt.ts",
+    "receipt.test.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "receipt.ts"
+  ]
+}

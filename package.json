@@ -1,0 +1,28 @@
+{
+  "name": "ad361-lab01",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Introduction to testing and static testing: grocery receipts.",
+  "scripts": {
+    "test": "jest receipt.test.ts --runInBand",
+    "test:watch": "jest receipt.test.ts --watch",
+    "lint:original": "eslint receipt.ts",
+    "lint:fixed": "eslint fixed_receipt.ts receipt.test.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -p tsconfig.build.json",
+    "demo": "npm run build && node -e \"require('./dist/fixed_receipt.js').printReceipt(0.10)\""
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.0",
+    "eslint": "^9.39.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.46.0"
+  }
+}
